@@ -1,0 +1,502 @@
+/* Banner CSS Start Here */
+#home-banner {
+  padding-top: 10rem;
+}
+#home-banner .special-heading::before {
+  width: 60%;
+}
+.banner-images {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.banner-image-one-dimension picture {
+  position: relative;
+  height: 554px;
+  width: 408px;
+}
+.banner-image-two-dimension picture {
+  position: relative;
+  height: 450px;
+  width: 408px;
+}
+.banner-images {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.banner-image-one {
+  margin-top: -4%;
+  padding-right: 2rem;
+  position: relative;
+}
+.banner-image-two {
+  margin-top: 25%;
+}
+.banner-object-one {
+  position: absolute;
+  top: 10%;
+  right: -8%;
+  z-index: 9999;
+}
+.banner-object-two {
+  position: absolute;
+  bottom: 6%;
+  left: 11%;
+}
+.banner-object-three {
+  position: absolute;
+  top: -10%;
+  right: 40%;
+  z-index: 9999;
+}
+.banner-image-two {
+  position: relative;
+}
+/* Banner CSS End Here */
+/* Our Story CSS Start Here */
+.ourstory-image-one-dimension picture {
+  margin-bottom: 2rem;
+}
+.ourstory-image-one-dimension picture,
+.ourstory-image-two-dimension picture {
+  position: relative;
+  height: 288px;
+  width: 330px;
+}
+.ourstory-image-three-dimension picture {
+  position: relative;
+  height: 607px;
+  width: 350px;
+  margin-top: 5rem;
+}
+.ourstory-content {
+  padding: 5rem 3rem;
+}
+.our-story-play-btn {
+  padding-top: 2rem;
+}
+#home-ourstory p {
+  padding: 1rem 0;
+}
+/* Our Story CSS End Here */
+/* Our Word CSS Start Here */
+#home-ourword h2 {
+  text-align: center;
+  padding: 2rem;
+}
+.ourword-slider {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 5%;
+  padding-inline: 1rem;
+  padding-bottom: 5rem;
+}
+.ourword-slider .card {
+  background-color: var(--white-color);
+  border-radius: 0;
+  padding: 2rem;
+  webkit-transition: 0.3s ease-in-out !important;
+  -o-transition: 0.3s ease-in-out !important;
+  transition: 0.3s ease-in-out !important;
+  height: 100%;
+}
+.ourword-slider .card:hover {
+  -webkit-box-shadow: -1px 10px 13px 3px rgba(0, 0, 0, 0.49);
+  box-shadow: -1px 10px 13px 3px rgba(0, 0, 0, 0.49);
+  border: 1px solid var(--theme-color);
+}
+.ourword-slider .card .card-btn {
+  display: block;
+  padding: 3rem 0 0;
+  color: var(--theme-color) !important;
+  font-weight: 600;
+  font-style: italic;
+  text-decoration: underline !important;
+}
+.ourword-slider .card span {
+  font-weight: 600;
+  position: relative;
+  display: inline-block;
+  padding: 2rem 1rem 0;
+}
+.ourword-slider .card span::before {
+  content: "";
+  border-left: 2px solid #ebd8e8;
+  position: absolute;
+  top: 20px;
+  height: 40px;
+  left: 0;
+}
+.ourword-slider .card p {
+  margin-bottom: 0;
+  color: var(--black-color);
+  font-weight: 500;
+}
+.ourword-slider .swiper-button-prev {
+  left: 0%;
+  top: 50%;
+}
+.ourword-slider .swiper-button-next {
+  right: 0%;
+  top: 50%;
+}
+/* Our Word CSS End Here */
+/* Expertise CSS Start Here */
+.expertise-slider .card {
+  border: 0;
+  border-radius: 0;
+  background-color: unset;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+}
+.expertise-slider .card-image {
+  height: 352px;
+  width: 352px;
+  position: relative;
+}
+.expertise-slider .card-image img {
+  filter: brightness(0.8);
+  -webkit-filter: brightness(0.8);
+  border-radius: 0;
+}
+.expertise-slider .card h5 {
+  color: var(--white-color);
+}
+.expertise-slider .card-img-overlay {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+.expertise-content {
+  padding-inline-start: 10%;
+}
+.expertise-slider .swiper-pagination {
+  width: 10rem !important;
+  height: auto;
+  margin: auto !important;
+  text-align: center !important;
+  right: 0;
+}
+.expertise-slider {
+  padding: 0 0 5rem;
+}
+.expertise-slider .swiper-button-prev {
+  top: unset;
+  bottom: 1%;
+}
+.expertise-slider .swiper-button-next {
+  top: unset;
+  bottom: 2%;
+  left: 6%;
+}
+/* Expertise CSS End Here */
+/* Star CSS Start Here */
+#star {
+  text-align: center;
+}
+#star h2 {
+  margin-bottom: 1.2rem;
+}
+#star p {
+  margin-bottom: 2rem;
+}
+.star-slider .card-body picture {
+  height: 90px;
+  width: 150px;
+  position: relative;
+  margin: auto;
+}
+.star-slider .card-body {
+  padding: 1rem;
+}
+.star-slider .card {
+  border-radius: 0;
+}
+/* Star CSS End Here */
+/* Game CSS Start Here */
+#game h2 {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.game-slider .card {
+  text-align: left;
+  border: 0;
+  max-width: 80%;
+  margin: auto;
+}
+.game-slider .card .card-title {
+  padding: 1rem 0 0.5rem;
+}
+.game-slider .card span {
+  color: var(--theme-color);
+}
+.game-slider {
+  position: relative;
+  overflow: unset;
+}
+.game-slider::before {
+  content: "";
+  background: var(--theme-color);
+  display: block;
+  height: 100%;
+  width: 1px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.game-slider .swiper-button-next {
+  bottom: -53%;
+  top: unset;
+  right: 36%;
+}
+.game-slider .swiper-button-prev {
+  bottom: -55%;
+  top: unset;
+  left: 36%;
+}
+/* Game CSS End Here */
+/* Eventology CSS Start Here */
+#eventology h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.eventology-content {
+  padding-top: 5rem;
+}
+.eventology-content .card {
+  border-radius: 0;
+  border-bottom: 8px solid var(--theme-color);
+  transition: 0.3s ease-in-out !important;
+}
+.eventology-content .card-img-overlay {
+  bottom: 20%;
+  top: unset;
+  left: 8%;
+}
+.eventology-content .eventology-image {
+  opacity: 0;
+  transition: 0.3s ease-in-out !important;
+}
+.eventology-content .card-text {
+  padding-top: 10%;
+}
+.eventology-content .card-img-overlay h3 {
+  color: var(--black-color);
+  max-width: 70%;
+}
+.eventology-content .card:hover {
+  -webkit-box-shadow: -1px 10px 13px 3px rgba(0, 0, 0, 0.49);
+  box-shadow: -1px 10px 13px 3px rgba(0, 0, 0, 0.49);
+}
+.eventology-content .card:hover .eventology-image {
+  opacity: 1;
+}
+.eventology-content .card:hover h3 {
+  color: var(--white-color);
+}
+.eventology-content .card:hover .card-text img {
+  filter: brightness(0) invert(1);
+}
+.eventology-content .card-img {
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+}
+.eventology-content .eventology-column:nth-child(2) {
+  margin-top: -5%;
+}
+.eventology-content .eventology-column:nth-child(3) {
+  margin-top: 5%;
+}
+.eventology-heading {
+  position: absolute;
+  right: 5%;
+  top: -2rem;
+}
+/* Eventology CSS End Here */
+.ourcrew-image {
+  position: relative;
+  width: 890px;
+  height: 407px;
+}
+.ourcrew-content {
+  max-width: 90%;
+  margin: auto;
+}
+.ourcrew-content h2 {
+  font: 700 55.7px/60.34px Figtree, sans-serif !important;
+}
+.ourcrew-content p{
+  padding: 1rem 0;
+}
+@media (max-width: 1199.5px) {
+  .banner-image-one-dimension picture,
+  .banner-image-two-dimension picture {
+    height: 300px;
+    width: 300px;
+  }
+  .banner-image-one {
+    padding-right: 1.5rem;
+  }
+  .banner-object-two {
+    bottom: 20%;
+  }
+  .ourstory-image-three-dimension picture {
+    width: 300px;
+  }
+  .ourstory-image-one-dimension picture,
+  .ourstory-image-two-dimension picture {
+    width: 250px;
+  }
+  .our-story-play-btn img {
+    width: 100%;
+  }
+}
+@media (max-width: 999px) {
+  #home-banner {
+    padding-top: 8rem;
+  }
+  .banner-images {
+    flex-wrap: nowrap;
+  }
+  .banner-image-one-dimension picture,
+  .banner-image-two-dimension picture {
+    height: 220px;
+    width: 220px;
+  }
+  .banner-image-one {
+    padding-right: 1rem;
+  }
+  .ourstory-image-one {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .ourstory-image-one-dimension {
+    padding-inline-end: 1rem;
+  }
+  .ourstory-image-three-dimension picture {
+    margin: 1rem 2rem;
+    width: 500px;
+  }
+  .expertise-slider .card-image {
+    margin: auto;
+  }
+  .expertise-slider .card-img-overlay {
+    left: 10%;
+  }
+  .expertise-content {
+    padding-bottom: 3rem;
+  }
+  .expertise-slider .swiper-button-prev,
+  .expertise-slider .swiper-button-next {
+    display: none;
+  }
+  .ourword-slider .card {
+    padding: 1rem;
+  }
+  .game-slider .card {
+    max-width: 60%;
+  }
+  .game-slider .card {
+    max-width: 60%;
+  }
+  .game-slider .swiper-button-next {
+    right: 10%;
+  }
+  .game-slider .swiper-button-prev {
+    left: 10%;
+  }
+  .eventology-content .card {
+    max-width: 90%;
+    margin: 1rem auto;
+  }
+  .eventology-content .card:hover {
+    box-shadow: unset;
+  }
+  .eventology-content .eventology-image {
+    opacity: 1;
+  }
+  .eventology-content .eventology-column:nth-child(2),
+  .eventology-content .eventology-column:nth-child(3) {
+    margin: 0;
+  }
+  .eventology-content .card-img-overlay h3 {
+    color: var(--white-color);
+  }
+  .eventology-content .card .card-text img {
+    filter: brightness(0) invert(1);
+  }
+  .eventology-content .card-img-overlay {
+    padding: 0;
+  }
+  .ourcrew-content h2 {
+    padding-top: 2rem;
+  }
+}
+@media (max-width: 767px) {
+  #home-banner {
+    text-align: center;
+  }
+  .banner-image-one-dimension picture,
+  .banner-image-two-dimension picture {
+    height: 250px;
+    width: 250px;
+  }
+  .banner-image-one,
+  .banner-image-two {
+    margin: 1rem 0;
+    padding: 0;
+  }
+  .banner-images {
+    justify-content: space-between;
+    padding-top: 2rem;
+  }
+  .banner-object-one img,
+  .banner-object-two img,
+  .banner-object-three img {
+    height: 80px;
+    width: 80px;
+  }
+  .banner-object-one {
+    top: -13%;
+    right: 0;
+  }
+  .banner-object-two {
+    bottom: -20%;
+  }
+  .banner-object-three {
+    right: 30%;
+  }
+  .ourstory-image-one-dimension picture,
+  .ourstory-image-two-dimension picture {
+    margin: 0 auto 2rem;
+  }
+  .our-story-play-btn img {
+    margin: auto;
+    width: 100%;
+  }
+  .ourstory-image-three-dimension picture {
+    margin: 3rem auto;
+  }
+  .ourstory-content {
+    padding: 1rem 2rem;
+  }
+}
+@media (max-width: 530px) {
+  .banner-images {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .banner-image-one {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-right: 0;
+  }
+}
