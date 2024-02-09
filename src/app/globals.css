@@ -274,7 +274,7 @@ header {
 .say-hello-btn {
   position: absolute;
   right: 20px;
-  top: -25px;
+  top: 0;
 }
 .navbar-nav {
   position: relative;
