@@ -17,7 +17,9 @@ const Eventology = () => {
       <section id="eventology" className="section-spacing">
         <div className="container">
           <div className="row position-relative">
-            <div className="col-md-6"></div>
+            <div className="col-md-6">
+              <div className="circle-fill-icon eventology-icon-object-one"></div>
+            </div>
             <div className="col-md-6 eventology-heading">
               <h2>Eventology</h2>
             </div>
@@ -159,6 +161,16 @@ const Eventology = () => {
             </div>
           </div>
           <div className="col-12 text-center py-5">
+            <div className="eventology-icon-object-two">
+              <picture>
+                <Image
+                  src="/images/comment-icon.svg"
+                  height={26}
+                  width={29}
+                  alt="ourstory"
+                />
+              </picture>
+            </div>
             <Link href="" className="main-btn">
               Dive in
             </Link>

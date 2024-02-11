@@ -18,11 +18,32 @@ const Star = () => {
         <div className="container">
           <div className="row">
             <div className="col-12">
+              <div className="story-icon-object-one">
+                <picture>
+                  <Image
+                    src="/images/comment-icon.svg"
+                    height={26}
+                    width={29}
+                    alt="ourstory"
+                  />
+                </picture>
+              </div>
+              <div className="circle-fill-icon story-icon-object-two"></div>
               <h2>
                 <span className="special-heading">The Stars</span>
                 of our Show
               </h2>
               <p>Brands we’ve co-created masterpiece events with</p>
+              <div className="story-icon-object-three">
+                <picture>
+                  <Image
+                    src="/images/heart-icon.svg"
+                    height={26}
+                    width={29}
+                    alt="ourstory"
+                  />
+                </picture>
+              </div>
             </div>
           </div>
         </div>

@@ -6,6 +6,7 @@ const Banner = () => {
         <div className="container">
           <div className="row g-md-0">
             <div className="col-md-5">
+              <div className="circle-fill-icon banner-icon-object-one"></div>
               <div className="banner-content">
                 <h1>
                   Maestros
@@ -17,6 +18,7 @@ const Banner = () => {
                   Extraordinary
                 </h1>
               </div>
+              <div className="circle-icon banner-icon-object-two"></div>
             </div>
             <div className="col-md-7">
               <div className="banner-images">
@@ -39,6 +41,7 @@ const Banner = () => {
                         alt="Banner"
                       />
                     </picture>
+                    <div className="circle-icon banner-icon-object-four"></div>
                   </div>
                   <div className="banner-object-two">
                     <picture>
@@ -52,6 +55,7 @@ const Banner = () => {
                   </div>
                 </div>
                 <div className="banner-image-two">
+                  <div className="circle-icon banner-icon-object-three"></div>
                   <div className="banner-object-three">
                     <picture>
                       <Image

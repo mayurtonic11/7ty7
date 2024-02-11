@@ -1,6 +1,7 @@
 /* Banner CSS Start Here */
 #home-banner {
   padding-top: 10rem;
+  position: relative;
 }
 #home-banner .special-heading::before {
   width: 60%;
@@ -51,8 +52,37 @@
 .banner-image-two {
   position: relative;
 }
+.banner-content {
+  padding-top: 6rem;
+}
+.banner-icon-object-one {
+  position: absolute;
+  left: 24%;
+}
+.banner-icon-object-one {
+  position: absolute;
+  left: 24%;
+}
+.banner-icon-object-two {
+  position: absolute;
+  bottom: 20%;
+  left: 32%;
+}
+.banner-icon-object-three {
+  position: absolute;
+  top: -37%;
+  right: 54%;
+}
+.banner-icon-object-four {
+  position: absolute;
+  right: 25%;
+  bottom: 6%;
+}
 /* Banner CSS End Here */
 /* Our Story CSS Start Here */
+#home-ourstory {
+  position: relative;
+}
 .ourstory-image-one-dimension picture {
   margin-bottom: 2rem;
 }
@@ -77,8 +107,45 @@
 #home-ourstory p {
   padding: 1rem 0;
 }
+.ourstory-icon-object-one {
+  position: absolute;
+  top: -12%;
+  left: 10%;
+}
+.ourstory-icon-object-two {
+  position: absolute;
+  left: 44%;
+  top: 10%;
+}
+.ourstory-icon-object-three {
+  position: absolute;
+  right: 25%;
+}
+.ourstory-icon-object-four {
+  position: absolute;
+  bottom: 45%;
+  right: 40%;
+}
+.ourstory-icon-object-five {
+  position: absolute;
+  right: 15%;
+  bottom: 15%;
+}
+.ourstory-icon-object-six {
+  position: absolute;
+  left: 8%;
+  bottom: -7%;
+}
+.ourstory-icon-object-seven {
+  position: absolute;
+  bottom: 0;
+  right: 25%;
+}
 /* Our Story CSS End Here */
 /* Our Word CSS Start Here */
+#home-ourword {
+  position: relative;
+}
 #home-ourword h2 {
   text-align: center;
   padding: 2rem;
@@ -139,6 +206,21 @@
   right: 0%;
   top: 50%;
 }
+.ourword-icon-object-one {
+  position: absolute;
+  left: 20%;
+  bottom: 3%;
+}
+.ourword-icon-object-two {
+  position: absolute;
+  left: 8%;
+  bottom: -3%;
+}
+.ourword-icon-object-three {
+  position: absolute;
+  right: 10%;
+  bottom: 5%;
+}
 /* Our Word CSS End Here */
 /* Expertise CSS Start Here */
 .expertise-slider .card {
@@ -196,6 +278,22 @@
 /* Star CSS Start Here */
 #star {
   text-align: center;
+  position: relative;
+}
+.story-icon-object-one {
+  position: absolute;
+  top: 27%;
+  left: 10%;
+}
+.story-icon-object-two {
+  position: absolute;
+  top: -2%;
+  left: 29%;
+}
+.story-icon-object-three {
+  position: absolute;
+  top: 7%;
+  right: 15%;
 }
 #star h2 {
   margin-bottom: 1.2rem;
@@ -217,6 +315,39 @@
 }
 /* Star CSS End Here */
 /* Game CSS Start Here */
+#game {
+  position: relative;
+}
+.story-icon-object-one {
+  position: absolute;
+  top: 27%;
+  left: 10%;
+}
+.story-icon-object-two {
+  position: absolute;
+  top: -2%;
+  left: 29%;
+}
+.story-icon-object-three {
+  position: absolute;
+  top: 7%;
+  right: 15%;
+}
+.game-icon-object-one {
+  position: absolute;
+  top: 0;
+  left: 20%;
+}
+.game-icon-object-two {
+  position: absolute;
+  left: 20%;
+  bottom: 0;
+}
+.game-icon-object-three {
+  position: absolute;
+  right: 5%;
+  bottom: 12%;
+}
 #game h2 {
   text-align: center;
   margin-bottom: 3rem;
@@ -260,6 +391,14 @@
 }
 /* Game CSS End Here */
 /* Eventology CSS Start Here */
+#eventology {
+  position: relative;
+}
+.eventology-icon-object-two {
+  position: absolute;
+  left: 10%;
+  bottom: 8%;
+}
 #eventology h2 {
   text-align: center;
   margin-bottom: 2rem;
@@ -320,10 +459,44 @@
   top: -2rem;
 }
 /* Eventology CSS End Here */
-.ourcrew-image {
+#ourcrew {
   position: relative;
-  width: 890px;
-  height: 407px;
+}
+.ourcrew-icon-object-one {
+  position: absolute;
+  right: 22%;
+  top: 0;
+}
+.ourcrew-icon-object-two {
+  position: absolute;
+  bottom: 0;
+  left: 15%;
+  z-index: 9999999;
+}
+.ourcrew-image {
+  padding-bottom: 3rem;
+}
+.ourcrew-icon-object-three {
+  position: absolute;
+  bottom: 8%;
+  right: 6%;
+}
+.ourcrew-image-one picture,
+.ourcrew-image-two picture {
+  position: relative;
+  width: 283px;
+  height: 410px;
+}
+.ourcrew-inner-image-one picture,
+.ourcrew-inner-image-two picture {
+  position: relative;
+  width: 283px;
+  height: 195px;
+}
+.ourcrew-image-three {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
 }
 .ourcrew-content {
   max-width: 90%;
@@ -332,8 +505,8 @@
 .ourcrew-content h2 {
   font: 700 55.7px/60.34px Figtree, sans-serif !important;
 }
-.ourcrew-content p{
-  padding: 1rem 0;
+.ourcrew-content p {
+  padding: 0.8rem 0;
 }
 @media (max-width: 1199.5px) {
   .banner-image-one-dimension picture,
@@ -379,7 +552,7 @@
     justify-content: center;
   }
   .ourstory-image-one-dimension {
-    padding-inline-end: 1rem;
+    padding-inline-end: 0;
   }
   .ourstory-image-three-dimension picture {
     margin: 1rem 2rem;
@@ -393,6 +566,7 @@
   }
   .expertise-content {
     padding-bottom: 3rem;
+    padding-inline: 0;
   }
   .expertise-slider .swiper-button-prev,
   .expertise-slider .swiper-button-next {
@@ -438,6 +612,31 @@
   }
   .ourcrew-content h2 {
     padding-top: 2rem;
+    font: 700 45.7px/50.34px Figtree, sans-serif !important;
+  }
+  .banner-content {
+    padding-top: 0;
+  }
+  #home-ourstory,
+  #expertise {
+    text-align: center;
+  }
+  #home-ourword h2 {
+    padding: 0;
+  }
+  .ourcrew-image {
+    justify-content: center;
+    margin: auto;
+    gap: 20px;
+  }
+  .ourcrew-image picture {
+    width: 100%;
+  }
+  .ourcrew-image-three {
+    display: block;
+  }
+  .ourcrew-inner-image-one {
+    padding-bottom: 1rem;
   }
 }
 @media (max-width: 767px) {
@@ -451,7 +650,7 @@
   }
   .banner-image-one,
   .banner-image-two {
-    margin: 1rem 0;
+    margin: 1rem 0 0;
     padding: 0;
   }
   .banner-images {

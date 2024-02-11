@@ -27,7 +27,7 @@ const OurWord = () => {
               <Swiper
                 spaceBetween={30}
                 navigation={true}
-                modules={[ Pagination, Navigation]}
+                modules={[Pagination, Navigation]}
                 loop={false} // Disable looping
                 className="ourword-slider"
                 pagination={{ clickable: true }}
@@ -128,6 +128,20 @@ const OurWord = () => {
                   </Link>
                 </SwiperSlide>
               </Swiper>
+            </div>
+            <div className="col-12">
+              <div className="ourword-icon-object-one">
+                <picture>
+                  <Image
+                    src="/images/like-icon.svg"
+                    height={26}
+                    width={29}
+                    alt="ourstory"
+                  />
+                </picture>
+              </div>
+              <div className="circle-fill-icon ourword-icon-object-two"></div>
+              <div className="circle-fill-icon ourword-icon-object-three"></div>
             </div>
           </div>
         </div>

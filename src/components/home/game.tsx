@@ -18,6 +18,16 @@ const Star = () => {
         <div className="container">
           <div className="row">
             <div className="col-12">
+              <div className="game-icon-object-one">
+                <picture>
+                  <Image
+                    src="/images/like-icon.svg"
+                    height={26}
+                    width={29}
+                    alt="ourstory"
+                  />
+                </picture>
+              </div>
               <h2>
                 We’re In
                 <span className="special-heading">The Game</span>
@@ -127,9 +137,29 @@ const Star = () => {
               </Swiper>
             </div>
             <div className="col-12 py-5 text-center">
+              <div className="game-icon-object-two">
+                <picture>
+                  <Image
+                    src="/images/heart-icon.svg"
+                    height={26}
+                    width={29}
+                    alt="ourstory"
+                  />
+                </picture>
+              </div>
               <Link href="" className="main-btn">
                 Read All
               </Link>
+              <div className="game-icon-object-three">
+                <picture>
+                  <Image
+                    src="/images/like-icon.svg"
+                    height={26}
+                    width={29}
+                    alt="ourstory"
+                  />
+                </picture>
+              </div>
             </div>
           </div>
         </div>

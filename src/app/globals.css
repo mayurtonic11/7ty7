@@ -24,6 +24,7 @@ html {
   --heading-color: #000;
   --header-font: 600 16px/50px Hind Vadodara, sans-serif;
   --footer-font: 400 12px/28px Figtree, sans-serif;
+  --footer-heading-font: 700 45px/40px Figtree, sans-serif;
   --heading-font: 700 66.7px/70.34px Figtree, sans-serif;
   --sub-heading-font: 500 24px/30.7px Figtree, sans-serif;
   --body-font: 300 16px/25px Figtree, sans-serif;
@@ -100,7 +101,7 @@ button {
   position: relative;
 }
 .main-btn:hover {
-  background-color:  var(--theme-color);
+  background-color: var(--theme-color);
   color: var(--white-color);
 }
 .main-btn:before {
@@ -156,9 +157,19 @@ button {
   color: var(--white-color);
   background: var(--theme-color);
 }
+.breadcrumb-item+.breadcrumb-item::before {
+    content: "+";
+}
+.breadcrumb-item.active{
+  color: var(--theme-color) !important;
+  font-weight: 600;
+}
 .section-spacing {
   padding: 3rem 0 0;
 }
+  .inner-section {
+    padding: 7rem 0 0;
+  }
 .zoom-hover picture {
   position: relative;
   overflow: hidden;
@@ -191,8 +202,8 @@ button:focus {
   display: block;
   z-index: 99999999;
 }
- .swiper-button-prev:after {
-   content:"" !important;
+.swiper-button-prev:after {
+  content: "" !important;
   background: url(/images/home/arrow-active.svg) no-repeat;
   font-size: 0;
   background-size: contain;
@@ -201,33 +212,63 @@ button:focus {
   width: 25px;
   filter: grayscale(100%);
 }
- .swiper-button-next {
+.swiper-button-next {
   height: 70px;
   width: 70px;
   display: block;
   z-index: 99999999;
 }
 .swiper-button-next:after {
-  content:"" !important;
+  content: "" !important;
   background: url(/images/home/arrow-active.svg) no-repeat;
   font-size: 0;
   background-size: contain;
   display: block;
   height: 25px;
-   width: 25px;
+  width: 25px;
   transform: rotate(180deg);
   filter: grayscale(100%);
 }
- .swiper-button-prev.swiper-button-disabled,
- .swiper-button-disabled.swiper-button-prev:after,
- .swiper-button-next.swiper-button-disabled,
+.swiper-button-prev.swiper-button-disabled,
+.swiper-button-disabled.swiper-button-prev:after,
+.swiper-button-next.swiper-button-disabled,
 .swiper-button-disabled.swiper-button-next:after {
   filter: unset;
   -webkit-filter: unset;
   opacity: unset;
 }
- .swiper-pagination-bullet-active {
+.swiper-pagination-bullet-active {
   background-color: var(--theme-color) !important;
+}
+.circle-fill-icon {
+  display: block;
+  height: 15px;
+  width: 15px;
+  background-color: var(--theme-color) !important;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  opacity: 0.3;
+}
+.circle-icon {
+  display: block;
+  height: 20px;
+  width: 20px;
+  border: 2px solid var(--theme-color) !important;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  opacity: 0.5;
+}
+.mail-btn {
+  position: fixed;
+  bottom: 20%;
+  right: 1%;
+  border-radius: 100%;
 }
 /*! Common CSS End Here !*/
 /*! Navigation CSS Start Here !*/
@@ -517,6 +558,40 @@ main .content {
   filter: blur(2px);
 }
 /*! Navigation CSS End Here !*/
+/*! Footer CSS Start Here !*/
+#footer {
+  padding: 6rem 0 3rem;
+  position: relative;
+}
+.footer-icon-object-one {
+  position: absolute;
+  top: 20%;
+  left: 55%;
+}
+#footer h3 {
+  font: var(--footer-heading-font) !important;
+}
+.social-icons ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  max-width: 90%;
+}
+.social-icons ul li {
+  background-color: #dedede;
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+.social-icons ul li:hover {
+  background-color: var(--theme-color);
+}
+.social-icons ul li:hover img {
+  filter: brightness(0) invert(1);
+}
+/*! Footer CSS End Here !*/
 @media (max-width: 1199.5px) {
   :root {
     --header-font: 600 12px/20.4px Hind Vadodara, sans-serif;
@@ -542,6 +617,7 @@ main .content {
   }
   .main-btn {
     color: var(--white-color) !important;
+    padding: 0.5rem 3rem;
   }
   .section-spacing {
     padding: 3rem 0 0;

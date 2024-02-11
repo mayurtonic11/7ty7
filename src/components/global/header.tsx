@@ -8,17 +8,17 @@ const Header = () => {
     if (typeof window !== 'undefined') {
       const currentScrollPos = window.scrollY;
       const headerElement = document.querySelector('header');
-      console.log('Handling scroll...');
-      console.log('Current Scroll Position:', currentScrollPos);
+      // console.log('Handling scroll...');
+      // console.log('Current Scroll Position:', currentScrollPos);
       if (headerElement) {
         if (currentScrollPos > 0) {
           // Scrolling down
-          console.log('Scrolling down');
+          // console.log('Scrolling down');
           headerElement.classList.remove('nav-down');
           headerElement.classList.add('nav-up');
         } else {
           // Scrolling up or at the top
-          console.log('Scrolling up or at the top');
+          // console.log('Scrolling up or at the top');
           headerElement.classList.remove('nav-up');
           headerElement.classList.add('nav-down');
         }

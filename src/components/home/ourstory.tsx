@@ -7,6 +7,7 @@ const OurStory = () => {
         <div className="container">
           <div className="row">
             <div className="col-md-7">
+              <div className="circle-fill-icon ourstory-icon-object-one"></div>
               <div className="ourstory-images row">
                 <div className="ourstory-image-one col-md-6">
                   <div className="ourstory-image-one-dimension zoom-hover">
@@ -39,6 +40,7 @@ const OurStory = () => {
                   </div>
                 </div>
                 <div className="ourstory-image-two col-md-6">
+                  <div className="circle-fill-icon ourstory-icon-object-two"></div>
                   <div className="ourstory-image-three-dimension zoom-hover">
                     <picture>
                       <Image
@@ -48,10 +50,21 @@ const OurStory = () => {
                       />
                     </picture>
                   </div>
+                  <div className="ourstory-icon-object-six">
+                    <picture>
+                      <Image
+                        src="/images/heart-icon.svg"
+                        height={26}
+                        width={29}
+                        alt="ourstory"
+                      />
+                    </picture>
+                  </div>
                 </div>
               </div>
             </div>
             <div className="col-lg-5 pe-md-0">
+              <div className="circle-fill-icon ourstory-icon-object-three"></div>
               <div className="ourstory-content">
                 <h2>
                   The Journey of
@@ -62,10 +75,22 @@ const OurStory = () => {
                   And just like the iPod, we built a legacy over the last 22
                   years that has left our audiences mesmerized and wanting more.
                 </p>
+                <div className="circle-fill-icon ourstory-icon-object-four"></div>
                 <Link className="main-btn" href="">
                   Our Story
                 </Link>
               </div>
+              <div className="ourstory-icon-object-five">
+                <picture>
+                  <Image
+                    src="/images/comment-icon.svg"
+                    height={26}
+                    width={29}
+                    alt="ourstory"
+                  />
+                </picture>
+              </div>
+              <div className="circle-fill-icon ourstory-icon-object-seven"></div>
             </div>
           </div>
         </div>
