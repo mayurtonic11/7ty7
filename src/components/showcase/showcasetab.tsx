@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
-import ShowcaseTabHeading from "@/components/showcase/showcasetabheading";
-import ShowcaseTabContent from "@/components/showcase/showcasetabcontent";
+import ShowcaseTabHeading from "@/components/Showcase/showcasetabheading";
+import ShowcaseTabContent from "@/components/Showcase/showcasetabcontent";
 const ShowcaseTab = () => {
   const [activeTab, setActiveTab] = useState<string>("pills-corpevents");
   const handleTabClick = (tabId: string) => {

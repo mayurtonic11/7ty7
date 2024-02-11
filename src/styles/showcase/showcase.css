@@ -3,7 +3,11 @@
   margin: 1rem 0 4rem;
   font: 700 45.05px/50px Figtree, sans-serif !important;
 }
-#showcase {
+#showcase-detail h2 {
+  font: 700 45.05px/50px Figtree, sans-serif !important;
+}
+#showcase,
+#showcase-#showcase-detail {
   position: relative;
 }
 .showcase-icon-object-one {
@@ -91,8 +95,127 @@
   -webkit-box-shadow: -1px 10px 13px 3px rgba(0, 0, 0, 0.49);
   box-shadow: -1px 10px 13px 3px rgba(0, 0, 0, 0.49);
 }
+#showcase-detail .card-image picture {
+  height: 470px;
+  width: 100%;
+  position: relative;
+}
+#showcase-detail img {
+  border-radius: 0;
+  object-fit: cover;
+}
+.showcasdetail-image-one {
+  padding-bottom: 2rem;
+}
+.showcasdetail-image-one picture,
+.showcasdetail-image-two picture {
+  height: 289px;
+  width: 100%;
+}
+.showcasdetail-image-three picture {
+  height: 610px;
+  width: 100%;
+}
+.showcasdetail-image-four picture {
+  height: 365px;
+  width: 100%;
+}
+.showcase-content {
+  padding: 5rem 0;
+}
+.showcase-content p {
+  padding: 3rem 0 2rem;
+}
+.showcasedetail-images {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.showcasedetail-image-one-dimension picture {
+  position: relative;
+  height: 554px;
+  width: 408px;
+}
+.showcasedetail-image-two-dimension picture {
+  position: relative;
+  height: 450px;
+  width: 408px;
+}
+.showcasedetail-images {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.showcasedetail-image-one {
+  margin-top: -4%;
+  padding-right: 2rem;
+  position: relative;
+}
+.showcasedetail-image-two {
+  margin-top: 25%;
+}
+.showcase-content-two {
+  padding: 5rem 0;
+}
+.showcase-content-two p {
+  max-width: 90%;
+}
+@media (max-width: 1199.5px) {
+  .showcasedetail-image-one-dimension picture,
+  .showcasedetail-image-two-dimension picture {
+    height: 300px;
+    width: 300px;
+  }
+  .showcasedetail-image-one {
+    padding-right: 1.5rem;
+  }
+}
 @media (max-width: 999px) {
   #showcasetab .card-image {
     width: 100%;
+  }
+  .showcasedetail-content {
+    padding-top: 0;
+  }
+  .showcasedetail-images {
+    flex-wrap: nowrap;
+  }
+  .showcasedetail-image-one-dimension picture,
+  .showcasedetail-image-two-dimension picture {
+    height: 220px;
+    width: 220px;
+  }
+  .showcasedetail-image-one {
+    padding-right: 1rem;
+  }
+  .showcase-content {
+    padding: 2rem 0;
+  }
+  .showcase-content .row {
+    justify-content: center;
+    margin: auto;
+  }
+  .showcase-content-two {
+    padding: 3rem 0;
+  }
+  .showcase-content-two p {
+    max-width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  #home-showcasedetail {
+    text-align: center;
+  }
+  .showcasedetail-image-one-dimension picture,
+  .showcasedetail-image-two-dimension picture {
+    height: 250px;
+    width: 250px;
+  }
+  .showcasedetail-image-one,
+  .showcasedetail-image-two {
+    margin: 1rem 0 0;
+    padding: 0;
+  }
+  .showcasedetail-images {
+    justify-content: space-between;
+    padding-top: 2rem;
   }
 }
