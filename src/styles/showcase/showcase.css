@@ -1,0 +1,98 @@
+#showcase h2 {
+  text-align: center;
+  margin: 1rem 0 4rem;
+  font: 700 45.05px/50px Figtree, sans-serif !important;
+}
+#showcase {
+  position: relative;
+}
+.showcase-icon-object-one {
+  position: absolute;
+  right: 10%;
+  bottom: 50%;
+}
+.showcase-icon-object-two {
+  position: absolute;
+  left: 10%;
+  bottom: 10%;
+}
+#showcasetab ul {
+  justify-content: center;
+  padding: 0 0 2rem;
+}
+#showcasetab ul li button {
+  padding-inline: 2rem;
+  font: 700 30.05px/40px Figtree, sans-serif !important;
+  color: var(--heading-color);
+  opacity: 0.6;
+}
+#showcasetab ul button.nav-link.active {
+  background-color: unset !important;
+  color: var(--theme-color) !important;
+  opacity: unset !important;
+}
+#showcasetab ul button.nav-link.active::after {
+  content: "";
+  border-bottom: 2px solid var(--theme-color);
+  display: block;
+}
+#showcasetab .card {
+  border: 0;
+  border-radius: 0;
+  background-color: unset;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  webkit-transition: 0.3s ease-in-out !important;
+  -o-transition: 0.3s ease-in-out !important;
+  transition: 0.3s ease-in-out !important;
+}
+#showcasetab .card-image picture {
+  height: 500px;
+  width: 100%;
+  position: relative;
+}
+#showcasetab .card-image img {
+  filter: brightness(0.8);
+  -webkit-filter: brightness(0.8);
+  border-radius: 0;
+  object-fit: cover;
+}
+#showcasetab .card h5 {
+  color: var(--white-color);
+}
+#showcasetab .card-img-overlay {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  align-items: flex-start;
+  height: fit-content;
+  width: auto;
+  margin-top: auto;
+}
+.expertise-content {
+  padding-inline-start: 10%;
+}
+#showcasetab .card-text {
+  color: var(--white-color);
+  padding-top: 0.5rem;
+  line-height: 1.2;
+  display: none;
+  webkit-transition: 0.3s ease-in-out !important;
+  -o-transition: 0.3s ease-in-out !important;
+  transition: 0.3s ease-in-out !important;
+}
+#showcasetab .card:hover .card-text {
+  display: block;
+}
+#showcasetab .card:hover {
+  -webkit-box-shadow: -1px 10px 13px 3px rgba(0, 0, 0, 0.49);
+  box-shadow: -1px 10px 13px 3px rgba(0, 0, 0, 0.49);
+}
+@media (max-width: 999px) {
+  #showcasetab .card-image {
+    width: 100%;
+  }
+}

@@ -1,10 +1,8 @@
 import Image from "next/image";
-import ContactusContent from "@/components/ContactUs/contactuscontent";
-import ContactusForm from "@/components/ContactUs/contactusform";
-const ContactUs = () => {
+const Showcase = () => {
   return (
     <div>
-      <section id="contact-us" className="inner-section">
+      <section id="showcase" className="inner-section">
         <div className="container">
           <div className="row">
             <div className="col-12">
@@ -14,17 +12,18 @@ const ContactUs = () => {
                     <a href="/">Home</a>
                   </li>
                   <li className="breadcrumb-item active" aria-current="page">
-                    Say Hello!
+                    Showcase
                   </li>
                 </ol>
               </nav>
             </div>
-          </div>
-          <div className="row">
-            <div className="col-md-6">
-              <div className="circle-fill-icon contact-icon-object-one"></div>
-              <ContactusContent />
-              <div className="contact-icon-object-two">
+            <div className="col-12">
+              <div className="circle-fill-icon showcase-icon-object-one"></div>
+              <h2>
+                Where Innovation
+                <span className="special-heading">Embraces Imagination</span>
+              </h2>
+              <div className="showcase-icon-object-two">
                 <picture>
                   <Image
                     src="/images/heart-icon.svg"
@@ -34,10 +33,6 @@ const ContactUs = () => {
                   />
                 </picture>
               </div>
-              <div className="circle-fill-icon contact-icon-object-three"></div>
-            </div>
-            <div className="col-md-6">
-              <ContactusForm />
             </div>
           </div>
         </div>
@@ -45,4 +40,4 @@ const ContactUs = () => {
     </div>
   );
 };
-export default ContactUs;
+export default Showcase;
