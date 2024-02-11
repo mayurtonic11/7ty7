@@ -17,7 +17,7 @@ const ShowcaseTabContent: FC<ShowcaseTabContentProps> = ({ activeTab }) => {
       >
         <div className="row g-4">
           <div className="col-md-8">
-            <Link href="" className="card">
+            <Link href="/showcase-detail" className="card">
               <div className="card-image zoom-hover">
                 <picture>
                   <Image
@@ -47,7 +47,7 @@ const ShowcaseTabContent: FC<ShowcaseTabContentProps> = ({ activeTab }) => {
             </Link>
           </div>
           <div className="col-md-4">
-            <Link href="" className="card">
+            <Link href="/showcase-detail" className="card">
               <div className="card-image zoom-hover">
                 <picture>
                   <Image
@@ -77,7 +77,7 @@ const ShowcaseTabContent: FC<ShowcaseTabContentProps> = ({ activeTab }) => {
             </Link>
           </div>
           <div className="col-md-6">
-            <Link href="" className="card">
+            <Link href="/showcase-detail" className="card">
               <div className="card-image zoom-hover">
                 <picture>
                   <Image
@@ -107,7 +107,7 @@ const ShowcaseTabContent: FC<ShowcaseTabContentProps> = ({ activeTab }) => {
             </Link>
           </div>
           <div className="col-md-6">
-            <Link href="" className="card">
+            <Link href="/showcase-detail" className="card">
               <div className="card-image zoom-hover">
                 <picture>
                   <Image
@@ -137,7 +137,7 @@ const ShowcaseTabContent: FC<ShowcaseTabContentProps> = ({ activeTab }) => {
             </Link>
           </div>
           <div className="col-md-4">
-            <Link href="" className="card">
+            <Link href="/showcase-detail" className="card">
               <div className="card-image zoom-hover">
                 <picture>
                   <Image
@@ -167,7 +167,7 @@ const ShowcaseTabContent: FC<ShowcaseTabContentProps> = ({ activeTab }) => {
             </Link>
           </div>
           <div className="col-md-8">
-            <Link href="" className="card">
+            <Link href="/showcase-detail" className="card">
               <div className="card-image zoom-hover">
                 <picture>
                   <Image
@@ -207,7 +207,7 @@ const ShowcaseTabContent: FC<ShowcaseTabContentProps> = ({ activeTab }) => {
       >
         <div className="row g-4">
           <div className="col-md-8">
-            <Link href="" className="card">
+            <Link href="/showcase-detail" className="card">
               <div className="card-image zoom-hover">
                 <picture>
                   <Image
@@ -237,7 +237,7 @@ const ShowcaseTabContent: FC<ShowcaseTabContentProps> = ({ activeTab }) => {
             </Link>
           </div>
           <div className="col-md-4">
-            <Link href="" className="card">
+            <Link href="/showcase-detail" className="card">
               <div className="card-image zoom-hover">
                 <picture>
                   <Image
@@ -267,7 +267,7 @@ const ShowcaseTabContent: FC<ShowcaseTabContentProps> = ({ activeTab }) => {
             </Link>
           </div>
           <div className="col-md-6">
-            <Link href="" className="card">
+            <Link href="/showcase-detail" className="card">
               <div className="card-image zoom-hover">
                 <picture>
                   <Image
@@ -297,7 +297,7 @@ const ShowcaseTabContent: FC<ShowcaseTabContentProps> = ({ activeTab }) => {
             </Link>
           </div>
           <div className="col-md-6">
-            <Link href="" className="card">
+            <Link href="/showcase-detail" className="card">
               <div className="card-image zoom-hover">
                 <picture>
                   <Image
@@ -327,7 +327,7 @@ const ShowcaseTabContent: FC<ShowcaseTabContentProps> = ({ activeTab }) => {
             </Link>
           </div>
           <div className="col-md-4">
-            <Link href="" className="card">
+            <Link href="/showcase-detail" className="card">
               <div className="card-image zoom-hover">
                 <picture>
                   <Image
@@ -357,7 +357,7 @@ const ShowcaseTabContent: FC<ShowcaseTabContentProps> = ({ activeTab }) => {
             </Link>
           </div>
           <div className="col-md-8">
-            <Link href="" className="card">
+            <Link href="/showcase-detail" className="card">
               <div className="card-image zoom-hover">
                 <picture>
                   <Image
@@ -397,7 +397,7 @@ const ShowcaseTabContent: FC<ShowcaseTabContentProps> = ({ activeTab }) => {
       >
         <div className="row g-4">
           <div className="col-md-8">
-            <Link href="" className="card">
+            <Link href="/showcase-detail" className="card">
               <div className="card-image zoom-hover">
                 <picture>
                   <Image
@@ -427,7 +427,7 @@ const ShowcaseTabContent: FC<ShowcaseTabContentProps> = ({ activeTab }) => {
             </Link>
           </div>
           <div className="col-md-4">
-            <Link href="" className="card">
+            <Link href="/showcase-detail" className="card">
               <div className="card-image zoom-hover">
                 <picture>
                   <Image
@@ -457,7 +457,7 @@ const ShowcaseTabContent: FC<ShowcaseTabContentProps> = ({ activeTab }) => {
             </Link>
           </div>
           <div className="col-md-6">
-            <Link href="" className="card">
+            <Link href="/showcase-detail" className="card">
               <div className="card-image zoom-hover">
                 <picture>
                   <Image
@@ -487,7 +487,7 @@ const ShowcaseTabContent: FC<ShowcaseTabContentProps> = ({ activeTab }) => {
             </Link>
           </div>
           <div className="col-md-6">
-            <Link href="" className="card">
+            <Link href="/showcase-detail" className="card">
               <div className="card-image zoom-hover">
                 <picture>
                   <Image
@@ -517,7 +517,7 @@ const ShowcaseTabContent: FC<ShowcaseTabContentProps> = ({ activeTab }) => {
             </Link>
           </div>
           <div className="col-md-4">
-            <Link href="" className="card">
+            <Link href="/showcase-detail" className="card">
               <div className="card-image zoom-hover">
                 <picture>
                   <Image
@@ -547,7 +547,7 @@ const ShowcaseTabContent: FC<ShowcaseTabContentProps> = ({ activeTab }) => {
             </Link>
           </div>
           <div className="col-md-8">
-            <Link href="" className="card">
+            <Link href="/showcase-detail" className="card">
               <div className="card-image zoom-hover">
                 <picture>
                   <Image
