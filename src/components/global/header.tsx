@@ -1,36 +1,33 @@
 "use client"
-import React, { useEffect } from 'react';
-import Link from "next/link";
+import React, { useEffect, useState } from "react";
 import Logo from "@/components/global/logo";
 import Navlinks from "@/components/global/navlinks";
 const Header = () => {
-    const handleScroll = () => {
-    if (typeof window !== 'undefined') {
-      const currentScrollPos = window.scrollY;
-      const headerElement = document.querySelector('header');
-      // console.log('Handling scroll...');
-      // console.log('Current Scroll Position:', currentScrollPos);
-      if (headerElement) {
-        if (currentScrollPos > 0) {
-          // Scrolling down
-          // console.log('Scrolling down');
-          headerElement.classList.remove('nav-down');
-          headerElement.classList.add('nav-up');
-        } else {
-          // Scrolling up or at the top
-          // console.log('Scrolling up or at the top');
-          headerElement.classList.remove('nav-up');
-          headerElement.classList.add('nav-down');
+      const [prevScrollPos, setPrevScrollPos] = useState(0);
+      const handleScroll = () => {
+        if (typeof window !== "undefined") {
+          const currentScrollPos = window.scrollY;
+          const headerElement = document.querySelector("header");
+          if (headerElement) {
+            if (currentScrollPos > prevScrollPos) {
+              // Scrolling down
+              headerElement.classList.remove("nav-down");
+              headerElement.classList.add("nav-up");
+            } else {
+              // Scrolling up or at the top
+              headerElement.classList.remove("nav-up");
+              headerElement.classList.add("nav-down");
+            }
+            setPrevScrollPos(currentScrollPos);
+          }
         }
-      }
-    }
-  };
-  useEffect(() => {
-    window.addEventListener('scroll', handleScroll);
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
+      };
+      useEffect(() => {
+        window.addEventListener("scroll", handleScroll);
+        return () => {
+          window.removeEventListener("scroll", handleScroll);
+        };
+      }, [prevScrollPos]);
   return (
     <div id="navigationbar">
       <header className="nav-down d-none d-lg-block">

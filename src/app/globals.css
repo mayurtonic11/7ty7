@@ -272,9 +272,6 @@ button:focus {
 }
 /*! Common CSS End Here !*/
 /*! Navigation CSS Start Here !*/
-.nav-up {
-  top: -140px;
-}
 header {
   position: fixed;
   -webkit-transition: top 0.6s ease-in-out;
@@ -283,15 +280,15 @@ header {
   width: 100%;
   z-index: 999999999;
 }
-.nav-up {
-  top: -130px;
-}
 .nav-down {
   background: var(--white-color) !important;
   color: var(--black-color);
   top: 0;
   z-index: 999999999;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+.nav-up {
+  top: -130px;
 }
 #navigationbar .navbar .nav-link {
   color: var(--black-color);
@@ -328,7 +325,7 @@ header {
   text-decoration: none;
   z-index: 999999999;
 }
-.say-hello-btn a:hover {
+.say-hello-btn a:hover, .say-hello-btn .active {
   background-color: var(--theme-color);
   color: var(--white-color);
   border: 1px solid var(--theme-color);
@@ -568,6 +565,12 @@ main .content {
   top: 20%;
   left: 55%;
 }
+.footer-icon-object-two {
+  position: absolute;
+  top: 15%;
+  left: 18%;
+  z-index: 9999999;
+}
 #footer h3 {
   font: var(--footer-heading-font) !important;
 }
@@ -614,6 +617,7 @@ main .content {
     --body-font: 300 16px/25px Figtree, sans-serif;
     --header-btn-font: 400 14px/86.4px Figtree, sans-serif;
     --banner-font: 700 40.7px/45.34px Figtree, sans-serif;
+    --footer-heading-font: 700 35px/40px Figtree, sans-serif;
   }
   .main-btn {
     color: var(--white-color) !important;
@@ -634,6 +638,13 @@ main .content {
     margin-bottom: 0;
   }
   /* Navigation Bar CSS Start Here */
+  /* Footer CSS Start Here */
+  #footer{
+    text-align: center;
+  }
+  #footer h3{
+    padding: 2rem 0;
+  }
 }
 @media (max-width: 767px) {
   /* Navigation Bar CSS Start Here */

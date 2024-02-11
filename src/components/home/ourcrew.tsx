@@ -58,16 +58,6 @@ const Ourcrew = () => {
                   </div>
                 </div>
               </div>
-              <div className="ourcrew-icon-object-two">
-                <picture>
-                  <Image
-                    src="/images/heart-icon.svg"
-                    height={26}
-                    width={29}
-                    alt="ourstory"
-                  />
-                </picture>
-              </div>
             </div>
             <div className="col-md-4">
               <div className="circle-fill-icon ourcrew-icon-object-one"></div>

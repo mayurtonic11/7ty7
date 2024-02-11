@@ -1,7 +1,7 @@
 /* Services CSS Start Here */
 #services h2 {
   text-align: center;
-  margin-bottom: 3rem;
+  margin: 1rem 0 4rem;
   font: 700 45.05px/50px Figtree, sans-serif !important;
 }
 #impeccable-services .card {
@@ -12,10 +12,13 @@
   -moz-border-radius: 0;
   -ms-border-radius: 0;
   -o-border-radius: 0;
+    webkit-transition: 0.3s ease-in-out !important;
+  -o-transition: 0.3s ease-in-out !important;
+  transition: 0.3s ease-in-out !important;
 }
 #impeccable-services .card-image {
   height: 352px;
-  width: 352px;
+  width: 100%;
   position: relative;
 }
 #impeccable-services .card-image img {
@@ -75,6 +78,34 @@
 }
 .main-btn:hover{
   background-color: var(--primary-color);
+}
+#impeccable-services  .card-text {
+    color: var(--white-color);
+    padding-top: 0.5rem;
+    line-height: 1.2;
+    display: none;
+      webkit-transition: 0.3s ease-in-out !important;
+  -o-transition: 0.3s ease-in-out !important;
+  transition: 0.3s ease-in-out !important;
+}
+#impeccable-services .card:hover .card-text{
+  display: block;
+}
+#impeccable-services .card:hover {
+  -webkit-box-shadow: -1px 10px 13px 3px rgba(0, 0, 0, 0.49);
+  box-shadow: -1px 10px 13px 3px rgba(0, 0, 0, 0.49);
+}
+#services {
+    position: relative;
+}
+.services-icon-object-one {
+    position: absolute;
+    right: 12%;
+    bottom: 40%;
+}
+.services-icon-object-two {
+    position: absolute;
+    left: 14%;
 }
 .cta{
   margin: 5rem auto 0;

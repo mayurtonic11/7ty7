@@ -467,12 +467,6 @@
   right: 22%;
   top: 0;
 }
-.ourcrew-icon-object-two {
-  position: absolute;
-  bottom: 0;
-  left: 15%;
-  z-index: 9999999;
-}
 .ourcrew-image {
   padding-bottom: 3rem;
 }

@@ -18,6 +18,7 @@ const ImpeccableServicesHeading = () => {
               </nav>
             </div>
             <div className="col-12">
+              <div className="circle-fill-icon services-icon-object-one"></div>
               <h2>
                 Impeccable Services,
                 <span className="special-heading">Seamless Execution</span>

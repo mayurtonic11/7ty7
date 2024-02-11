@@ -8,6 +8,16 @@ const Footer = () => {
           <div className="row align-items-center">
             <div className="col-md-8">
               <div className="circle-fill-icon footer-icon-object-one"></div>
+              <div className="footer-icon-object-two">
+                <picture>
+                  <Image
+                    src="/images/heart-icon.svg"
+                    height={26}
+                    width={29}
+                    alt="ourstory"
+                  />
+                </picture>
+              </div>
               <h3>
                 Drop the FOMO and{" "}
                 <span className="special-heading">Catch up with us!</span>

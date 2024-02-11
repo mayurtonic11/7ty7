@@ -5,7 +5,12 @@ const Navlinks = () => {
   return (
     <>
       <div className="say-hello-btn">
-        <Link href="#">Say Hello!</Link>
+        <Link
+          className={`${pathname === "/contact-us" ? "active" : ""}`}
+          href="/contact-us"
+        >
+          Say Hello!
+        </Link>
       </div>
       <li className="nav-item ">
         <Link
