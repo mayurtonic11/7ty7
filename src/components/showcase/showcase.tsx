@@ -1,5 +1,5 @@
 import Image from "next/image";
-const Showcase = () => {
+const ShowcaseContent = () => {
   return (
     <div>
       <section id="showcase" className="inner-section">
@@ -40,4 +40,4 @@ const Showcase = () => {
     </div>
   );
 };
-export default Showcase;
+export default ShowcaseContent;
