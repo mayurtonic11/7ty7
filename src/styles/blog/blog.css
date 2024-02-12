@@ -3,6 +3,11 @@
   margin: 1rem 0 4rem;
   font: 700 45.05px/50px Figtree, sans-serif !important;
 }
+#blog-detail h2 {
+  text-align: left;
+  font: 700 45.05px/50px Figtree, sans-serif !important;
+  margin: 1rem 0 ;
+}
 #blog {
   position: relative;
 }
@@ -10,6 +15,14 @@
   border: 0;
   background-color: unset;
 }
-#blog-content .card .card-body{
+#blog-content .card .card-body {
   padding-inline-start: 0;
+}
+.nextprev-btn {
+    justify-content: space-between;
+}
+.nextprev-btn button {
+    background: unset;
+    border: 1px solid var(--primary-color)!important;
+    color: var(--primary-color) !important;
 }
