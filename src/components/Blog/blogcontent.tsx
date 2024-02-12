@@ -57,7 +57,7 @@ const BlogContent = () => {
         <div className="container">
           <div className="row gy-4">
             <div className="col-md-4 filter-item">
-              <Link href="#" className="card">
+              <Link href="/blog-detail" className="card">
                 <div className="card-image zoom-hover">
                   <picture>
                     <Image
@@ -89,7 +89,7 @@ const BlogContent = () => {
               </Link>
             </div>
             <div className="col-md-4 filter-item">
-              <Link href="#" className="card">
+              <Link href="/blog-detail" className="card">
                 <div className="card-image zoom-hover">
                   <picture>
                     <Image
@@ -121,7 +121,7 @@ const BlogContent = () => {
               </Link>
             </div>
             <div className="col-md-4 filter-item">
-              <Link href="#" className="card">
+              <Link href="/blog-detail" className="card">
                 <div className="card-image zoom-hover">
                   <picture>
                     <Image
@@ -153,7 +153,7 @@ const BlogContent = () => {
               </Link>
             </div>
             <div className="col-md-4 filter-item">
-              <Link href="#" className="card">
+              <Link href="/blog-detail" className="card">
                 <div className="card-image zoom-hover">
                   <picture>
                     <Image
@@ -185,7 +185,7 @@ const BlogContent = () => {
               </Link>
             </div>
             <div className="col-md-4 filter-item">
-              <Link href="#" className="card">
+              <Link href="/blog-detail" className="card">
                 <div className="card-image zoom-hover">
                   <picture>
                     <Image
@@ -217,7 +217,7 @@ const BlogContent = () => {
               </Link>
             </div>
             <div className="col-md-4 filter-item">
-              <Link href="#" className="card">
+              <Link href="/blog-detail" className="card">
                 <div className="card-image zoom-hover">
                   <picture>
                     <Image
@@ -249,7 +249,7 @@ const BlogContent = () => {
               </Link>
             </div>
             <div className="col-md-4 filter-item">
-              <Link href="#" className="card">
+              <Link href="/blog-detail" className="card">
                 <div className="card-image zoom-hover">
                   <picture>
                     <Image
@@ -281,7 +281,7 @@ const BlogContent = () => {
               </Link>
             </div>
             <div className="col-md-4 filter-item">
-              <Link href="#" className="card">
+              <Link href="/blog-detail" className="card">
                 <div className="card-image zoom-hover">
                   <picture>
                     <Image
@@ -313,7 +313,7 @@ const BlogContent = () => {
               </Link>
             </div>
             <div className="col-md-4 filter-item">
-              <Link href="#" className="card">
+              <Link href="/blog-detail" className="card">
                 <div className="card-image zoom-hover">
                   <picture>
                     <Image
