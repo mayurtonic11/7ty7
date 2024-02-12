@@ -54,16 +54,16 @@ const Navlinks = () => {
       </li>
       <li className="nav-item ">
         <Link
-          className={`nav-link ${pathname === "/buzz" ? "active" : ""}`}
-          href="/buzz"
+          className={`nav-link ${pathname === "#" ? "active" : ""}`}
+          href="#"
         >
           Buzz
         </Link>
       </li>
       <li className="nav-item ">
         <Link
-          className={`nav-link ${pathname === "/insights" ? "active" : ""}`}
-          href="/insights"
+          className={`nav-link ${pathname === "/blog" ? "active" : ""}`}
+          href="/blog"
         >
           Insights
         </Link>

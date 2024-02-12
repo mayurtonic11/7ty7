@@ -1,0 +1,15 @@
+#blog h2 {
+  text-align: center;
+  margin: 1rem 0 4rem;
+  font: 700 45.05px/50px Figtree, sans-serif !important;
+}
+#blog {
+  position: relative;
+}
+#blog-content .card {
+  border: 0;
+  background-color: unset;
+}
+#blog-content .card .card-body{
+  padding-inline-start: 0;
+}
