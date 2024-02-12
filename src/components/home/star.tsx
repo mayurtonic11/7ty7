@@ -157,7 +157,7 @@ const Star = () => {
               </Swiper>
             </div>
             <div className="col-12 py-5">
-              <Link href="" className="main-btn">
+              <Link href="/clientele" className="main-btn">
                 Explore
               </Link>
             </div>

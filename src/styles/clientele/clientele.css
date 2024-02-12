@@ -1,0 +1,63 @@
+/* clientele CSS Start Here */
+#clientele h2 {
+  text-align: center;
+  margin: 1rem 0 4rem;
+  font: 700 45.05px/50px Figtree, sans-serif !important;
+}
+#clientele {
+  position: relative;
+}
+.clientele-icon-object-one {
+  position: absolute;
+  right: 12%;
+  bottom: 40%;
+}
+.clientele-icon-object-two {
+  position: absolute;
+  left: 14%;
+}
+#clientele-content .grid-container {
+  display: grid;
+  gap: 10px;
+}
+#clientele-content .grid-item {
+  background-color: unset;
+  border-radius: 0;
+  padding: 20px;
+  text-align: center;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+}
+#clientele-content .card picture {
+  height: 90px;
+  width: 150px;
+  position: relative;
+  margin: auto;
+}
+/* clientele CSS end Here */
+@media (min-width: 600px) {
+  .grid-container {
+    grid-template-columns: repeat(
+      2,
+      1fr
+    ); /* 2 columns for screens wider than 600px */
+  }
+}
+@media (min-width: 900px) {
+  .grid-container {
+    grid-template-columns: repeat(
+      3,
+      1fr
+    ); /* 3 columns for screens wider than 900px */
+  }
+}
+@media (min-width: 1200px) {
+  .grid-container {
+    grid-template-columns: repeat(
+      5,
+      1fr
+    ); /* 5 columns for screens wider than 1200px */
+  }
+}
