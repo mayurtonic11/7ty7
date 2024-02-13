@@ -6,7 +6,7 @@ const Footer = () => {
       <footer id="footer">
         <div className="container">
           <div className="row align-items-center">
-            <div className="col-md-8">
+            <div className="col-md-6 col-lg-8">
               <div className="circle-fill-icon footer-icon-object-one"></div>
               <div className="footer-icon-object-two">
                 <picture>
@@ -23,7 +23,7 @@ const Footer = () => {
                 <span className="special-heading">Catch up with us!</span>
               </h3>
             </div>
-            <div className="col-md-4">
+            <div className="col-md-6 col-lg-4">
               <div className="social-icons">
                 <ul className="list-unstyled">
                   <li>

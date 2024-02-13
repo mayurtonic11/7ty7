@@ -1,0 +1,149 @@
+.ourjourney-image-one picture {
+  width: 560px;
+  height: 412px;
+  position: relative;
+}
+.ourjourney-image-two picture {
+  width: 400px;
+  height: 543px;
+  position: relative;
+}
+.ourjourney-image-three picture {
+  width: 351px;
+  height: 570px;
+  position: relative;
+}
+.ourjourney-image-four picture {
+  width: 767px;
+  height: 370px;
+  position: relative;
+}
+.ourjourney-image-four picture img {
+  object-fit: cover;
+}
+.ourjourney-image {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  padding: 0 6rem;
+  gap: 20px;
+}
+.ourjourney-image-three {
+  position: absolute;
+  top: -5%;
+  right: 0;
+}
+#our-journey-content {
+  position: relative;
+}
+.ourjourney-image-one {
+  position: absolute;
+  left: 0;
+  top: 30%;
+}
+#ourguidinglight-content h2 {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+#ourguidinglight-content .card {
+  border: 0;
+  background-color: #fceffa;
+  padding: 0;
+  webkit-transition: 0.3s ease-in-out !important;
+  -o-transition: 0.3s ease-in-out !important;
+  transition: 0.3s ease-in-out !important;
+}
+#ourguidinglight-content .card .card-body {
+  padding: 1.5rem;
+}
+#ourguidinglight-content .card:hover {
+  background-color: var(--white-color);
+  -webkit-box-shadow: -1px 10px 13px 3px rgba(0, 0, 0, 0.49);
+  box-shadow: -1px 10px 13px 3px rgba(0, 0, 0, 0.49);
+}
+#ourguidinglight-content .card h5 {
+  padding-bottom: 0.5rem;
+}
+#ourguidinglight-content .card:hover h5 {
+  color: var(--theme-color);
+}
+.timeline-slider {
+  padding: 2rem 0 5rem;
+}
+.timeline-slider h3 {
+  color: var(--theme-color);
+  font: 700 45.05px/50px Figtree, sans-serif !important;
+  position: relative;
+}
+.timeline-slider h3:before {
+  content: "";
+  border-left: 3px solid var(--theme-color);
+  position: absolute;
+  left: -30px;
+  display: block;
+  height: 2rem;
+  top: 10px;
+  opacity: 0.5;
+}
+.timeline-slider p {
+  max-width: 80%;
+}
+.timeline-slider .card {
+  border: 0;
+}
+.timeline-slider .swiper-slide:nth-child(2) .card {
+  margin-top: 2rem;
+}
+.timeline-slider .swiper-slide:nth-child(4) .card {
+  margin-top: 2rem;
+}
+.timeline-slider .swiper-button-prev {
+  bottom: 0;
+  top: unset;
+  left: 48%;
+}
+.timeline-slider .swiper-button-next {
+  top: unset;
+  bottom: 1%;
+  right: 45%;
+}
+@media (max-width: 999px) {
+    .inner-section {
+    padding: 2rem 0 0;
+  }
+  .timeline-slider .swiper-slide:nth-child(2) .card,
+  .timeline-slider .swiper-slide:nth-child(4) .card {
+    margin-top: 0;
+  }
+  .ourjourney-image-one picture,
+  .ourjourney-image-two picture,
+  .ourjourney-image-four picture,
+  .ourjourney-image-three picture {
+    width: 100%;
+  }
+  .ourjourney-image-three {
+    position: unset;
+  }
+  .ourjourney-image {
+    padding: 0rem;
+    justify-content: center;
+    text-align: center;
+  }
+  .ourjourney-image-one {
+    position: unset;
+    padding: 2rem 0;
+    margin: auto;
+  }
+  .timeline-slider {
+    padding: 0rem 0 3rem;
+  }
+  .timeline-slider .swiper-button-next {
+    right: 34%;
+    bottom: 1.5%;
+  }
+  #ourguidinglight-content .card img {
+    object-fit: cover;
+    object-position: top;
+    height: 300px;
+}
+}
