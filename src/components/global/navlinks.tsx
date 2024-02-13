@@ -6,8 +6,8 @@ const Navlinks = () => {
     <>
       <div className="say-hello-btn">
         <Link
-          className={`${pathname === "/contact-us" ? "active" : ""}`}
-          href="/contact-us"
+          className={`${pathname === "#" ? "active" : ""}`}
+          href="#"
         >
           Say Hello!
         </Link>
@@ -22,32 +22,32 @@ const Navlinks = () => {
       </li>
       <li className="nav-item ">
         <Link
-          className={`nav-link ${pathname === "/our-story" ? "active" : ""}`}
-          href="/our-story"
+          className={`nav-link ${pathname === "#" ? "active" : ""}`}
+          href="#"
         >
           Our Story
         </Link>
       </li>
       <li className="nav-item ">
         <Link
-          className={`nav-link ${pathname === "/expertise" ? "active" : ""}`}
-          href="/expertise"
+          className={`nav-link ${pathname === "#" ? "active" : ""}`}
+          href="#"
         >
           Expertise
         </Link>
       </li>
       <li className="nav-item ">
         <Link
-          className={`nav-link ${pathname === "/showcase" ? "active" : ""}`}
-          href="/showcase"
+          className={`nav-link ${pathname === "#" ? "active" : ""}`}
+          href="#"
         >
           Showcase
         </Link>
       </li>
       <li className="nav-item ">
         <Link
-          className={`nav-link ${pathname === "/clientele" ? "active" : ""}`}
-          href="/clientele"
+          className={`nav-link ${pathname === "#" ? "active" : ""}`}
+          href="#"
         >
           Clientele
         </Link>
@@ -62,8 +62,8 @@ const Navlinks = () => {
       </li>
       <li className="nav-item ">
         <Link
-          className={`nav-link ${pathname === "/blog" ? "active" : ""}`}
-          href="/blog"
+          className={`nav-link ${pathname === "#" ? "active" : ""}`}
+          href="#"
         >
           Insights
         </Link>
@@ -71,9 +71,9 @@ const Navlinks = () => {
       <li className="nav-item ">
         <Link
           className={`nav-link ${
-            pathname === "/join-the-squad" ? "active" : ""
+            pathname === "#" ? "active" : ""
           }`}
-          href="/join-the-squad"
+          href="#"
         >
           Join the Squad
         </Link>
