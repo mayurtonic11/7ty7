@@ -44,7 +44,7 @@ const Star = () => {
                 className="game-slider"
                 breakpoints={{
                   0: {
-                    slidesPerView: 1,
+                    slidesPerView: 1.5,
                   },
                   600: {
                     slidesPerView: 2,

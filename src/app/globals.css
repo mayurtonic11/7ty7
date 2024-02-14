@@ -157,19 +157,19 @@ button {
   color: var(--white-color);
   background: var(--theme-color);
 }
-.breadcrumb-item+.breadcrumb-item::before {
-    content: "+";
+.breadcrumb-item + .breadcrumb-item::before {
+  content: "+";
 }
-.breadcrumb-item.active{
+.breadcrumb-item.active {
   color: var(--theme-color) !important;
   font-weight: 600;
 }
 .section-spacing {
   padding: 3rem 0 0;
 }
-  .inner-section {
-    padding: 7rem 0 0;
-  }
+.inner-section {
+  padding: 7rem 0 0;
+}
 .zoom-hover picture {
   position: relative;
   overflow: hidden;
@@ -269,6 +269,7 @@ button:focus {
   bottom: 20%;
   right: 1%;
   border-radius: 100%;
+  z-index: 999999;
 }
 /*! Common CSS End Here !*/
 /*! Navigation CSS Start Here !*/
@@ -325,7 +326,8 @@ header {
   text-decoration: none;
   z-index: 999999999;
 }
-.say-hello-btn a:hover, .say-hello-btn .active {
+.say-hello-btn a:hover,
+.say-hello-btn .active {
   background-color: var(--theme-color);
   color: var(--white-color);
   border: 1px solid var(--theme-color);
@@ -595,6 +597,15 @@ main .content {
   filter: brightness(0) invert(1);
 }
 /*! Footer CSS End Here !*/
+#four-zero-four {
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+#four-zero-four .four-zero-four-content h3 {
+  padding: 2rem 0;
+}
 @media (max-width: 1199.5px) {
   :root {
     --header-font: 600 12px/20.4px Hind Vadodara, sans-serif;
@@ -639,10 +650,10 @@ main .content {
   }
   /* Navigation Bar CSS Start Here */
   /* Footer CSS Start Here */
-  #footer{
+  #footer {
     text-align: center;
   }
-  #footer h3{
+  #footer h3 {
     padding: 2rem 0;
   }
 }

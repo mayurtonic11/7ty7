@@ -42,6 +42,7 @@
   position: absolute;
   bottom: 6%;
   left: 11%;
+  z-index: 9999;
 }
 .banner-object-three {
   position: absolute;
@@ -77,6 +78,14 @@
   position: absolute;
   right: 25%;
   bottom: 6%;
+}
+.home-banner-one-slider .swiper-slide {
+  height: 550px !important;
+  overflow: hidden;
+}
+.home-banner-two-slider .swiper-slide {
+  height: 450px !important;
+  overflow: hidden;
 }
 /* Banner CSS End Here */
 /* Our Story CSS Start Here */
@@ -393,6 +402,7 @@
 /* Eventology CSS Start Here */
 #eventology {
   position: relative;
+  padding-top: 0;
 }
 .eventology-icon-object-two {
   position: absolute;
@@ -447,16 +457,19 @@
   -ms-border-radius: 0;
   -o-border-radius: 0;
 }
-.eventology-content .eventology-column:nth-child(2) {
+.eventology-content .swiper-slide:nth-child(2) {
   margin-top: -5%;
 }
-.eventology-content .eventology-column:nth-child(3) {
+.eventology-content .swiper-slide:nth-child(3) {
   margin-top: 5%;
 }
 .eventology-heading {
   position: absolute;
   right: 5%;
-  top: -2rem;
+  top: 2rem;
+}
+.eventology-slider {
+  padding: 5rem 0 2rem;
 }
 /* Eventology CSS End Here */
 #ourcrew {
@@ -535,7 +548,7 @@
   .banner-image-one-dimension picture,
   .banner-image-two-dimension picture {
     height: 220px;
-    width: 220px;
+    width: 270px;
   }
   .banner-image-one {
     padding-right: 1rem;
@@ -543,14 +556,20 @@
   .ourstory-image-one {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
+  }
+  .ourstory-image-one-dimension picture,
+  .ourstory-image-two-dimension picture {
+    height: 185px;
+    width: 185px;
   }
   .ourstory-image-one-dimension {
     padding-inline-end: 0;
   }
   .ourstory-image-three-dimension picture {
     margin: 1rem 2rem;
-    width: 500px;
+    width: 400px;
+    height: 400px;
   }
   .expertise-slider .card-image {
     margin: auto;
@@ -591,8 +610,8 @@
   .eventology-content .eventology-image {
     opacity: 1;
   }
-  .eventology-content .eventology-column:nth-child(2),
-  .eventology-content .eventology-column:nth-child(3) {
+  .eventology-content .swiper-slide:nth-child(2),
+  .eventology-content .swiper-slide:nth-child(3) {
     margin: 0;
   }
   .eventology-content .card-img-overlay h3 {
@@ -610,18 +629,20 @@
   }
   .banner-content {
     padding-top: 0;
+    text-align: left;
+    padding-inline-start: 1rem;
   }
   #home-ourstory,
   #expertise {
     text-align: center;
   }
   #home-ourword h2 {
-    padding: 0;
+    padding: 0 0 3rem;
   }
   .ourcrew-image {
     justify-content: center;
     margin: auto;
-    gap: 20px;
+    gap: 0;
   }
   .ourcrew-image picture {
     width: 100%;
@@ -631,6 +652,14 @@
   }
   .ourcrew-inner-image-one {
     padding-bottom: 1rem;
+  }
+  .home-banner-one-slider .swiper-slide {
+    height: auto !important;
+    overflow: hidden;
+  }
+  .home-banner-two-slider .swiper-slide {
+    height: auto !important;
+    overflow: hidden;
   }
 }
 @media (max-width: 767px) {
@@ -647,6 +676,9 @@
     margin: 1rem 0 0;
     padding: 0;
   }
+  .banner-image-one-dimension {
+    padding-inline-end: 1rem;
+  }
   .banner-images {
     justify-content: space-between;
     padding-top: 2rem;
@@ -659,37 +691,59 @@
   }
   .banner-object-one {
     top: -13%;
-    right: 0;
+    right: 6%;
   }
   .banner-object-two {
     bottom: -20%;
+    left:30%;
   }
   .banner-object-three {
     right: 30%;
   }
+  #home-ourstory h2 {
+    margin-bottom: 3rem;
+  }
   .ourstory-image-one-dimension picture,
   .ourstory-image-two-dimension picture {
-    margin: 0 auto 2rem;
+    margin: 0 auto 1rem;
   }
   .our-story-play-btn img {
     margin: auto;
     width: 100%;
   }
   .ourstory-image-three-dimension picture {
-    margin: 3rem auto;
+    margin: 3rem auto 1rem;
   }
   .ourstory-content {
     padding: 1rem 2rem;
   }
+  .game-slider .card {
+    max-width: 100%;
+  }
+  .ourcrew-image {
+    justify-content: center;
+    margin: auto;
+    gap: 20px;
+  }
+  .eventology-content {
+    padding-top: 0;
+  }
 }
 @media (max-width: 530px) {
   .banner-images {
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: center;
   }
   .banner-image-one {
     margin-top: 2rem;
     margin-bottom: 2rem;
     padding-right: 0;
+  }
+}
+@media (max-width: 375px) {
+  .ourstory-image-one-dimension picture,
+  .ourstory-image-two-dimension picture {
+    height: 175px;
+    width: 100%;
   }
 }

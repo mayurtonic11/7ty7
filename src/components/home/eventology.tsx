@@ -27,137 +27,171 @@ const Eventology = () => {
         </div>
         <div className="container-fluid px-0 m-0 overflow-hidden">
           <div className="row eventology-content g-0">
-            <div className="col-md-6 col-lg-3 eventology-column">
-              <Link href="#" className="card ">
-                <div className="eventology-image">
-                  <picture>
-                    <Image
-                      src="/images/home/eventology.jpg"
-                      className="card-img"
-                      height={365}
-                      width={365}
-                      alt="Eventology"
-                    />
-                  </picture>
-                </div>
-                <div className="card-img-overlay">
-                  <h3 className="card-title">
-                    A useful guide to create effective name badges
-                  </h3>
-                  <p className="card-text">
-                    <small>
-                      <picture>
-                        <Image
-                          src="/images/home/eventology-arrow.svg"
-                          className="img-fluid"
-                          height={15}
-                          width={21}
-                          alt="button"
-                        />
-                      </picture>
-                    </small>
-                  </p>
-                </div>
-              </Link>
-            </div>
-            <div className="col-md-6 col-lg-3 eventology-column">
-              <Link href="#" className="card ">
-                <div className="eventology-image">
-                  <picture>
-                    <Image
-                      src="/images/home/eventology.jpg"
-                      className="card-img"
-                      height={365}
-                      width={365}
-                      alt="Eventology"
-                    />
-                  </picture>
-                </div>
-                <div className="card-img-overlay">
-                  <h3 className="card-title">
-                    A useful guide to create effective name badges
-                  </h3>
-                  <p className="card-text">
-                    <small>
-                      <picture>
-                        <Image
-                          src="/images/home/eventology-arrow.svg"
-                          className="img-fluid"
-                          height={15}
-                          width={21}
-                          alt="button"
-                        />
-                      </picture>
-                    </small>
-                  </p>
-                </div>
-              </Link>
-            </div>
-            <div className="col-md-6 col-lg-3 eventology-column">
-              <Link href="#" className="card ">
-                <div className="eventology-image">
-                  <picture>
-                    <Image
-                      src="/images/home/eventology.jpg"
-                      className="card-img"
-                      height={365}
-                      width={365}
-                      alt="Eventology"
-                    />
-                  </picture>
-                </div>
-                <div className="card-img-overlay">
-                  <h3 className="card-title">
-                    A useful guide to create effective name badges
-                  </h3>
-                  <p className="card-text">
-                    <small>
-                      <picture>
-                        <Image
-                          src="/images/home/eventology-arrow.svg"
-                          className="img-fluid"
-                          height={15}
-                          width={21}
-                          alt="button"
-                        />
-                      </picture>
-                    </small>
-                  </p>
-                </div>
-              </Link>
-            </div>
-            <div className="col-md-6 col-lg-3 eventology-column">
-              <Link href="#" className="card ">
-                <div className="eventology-image">
-                  <picture>
-                    <Image
-                      src="/images/home/eventology.jpg"
-                      className="card-img"
-                      height={365}
-                      width={365}
-                      alt="Eventology"
-                    />
-                  </picture>
-                </div>
-                <div className="card-img-overlay">
-                  <h3 className="card-title">
-                    A useful guide to create effective name badges
-                  </h3>
-                  <p className="card-text">
-                    <small>
-                      <picture>
-                        <Image
-                          src="/images/home/eventology-arrow.svg"
-                          className="img-fluid"
-                          height={15}
-                          width={21}
-                          alt="button"
-                        />
-                      </picture>
-                    </small>
-                  </p>
-                </div>
-              </Link>
+            <div className="col-12 p-0">
+              <Swiper
+                spaceBetween={0}
+                navigation={true}
+                modules={[Pagination, Navigation]}
+                loop={false} // Disable looping
+                className="eventology-slider"
+                pagination={{ clickable: true }}
+                breakpoints={{
+                  0: {
+                    slidesPerView: 1,
+                  },
+                  600: {
+                    slidesPerView: 2,
+                  },
+                  1000: {
+                    slidesPerView: 4,
+                  },
+                }}
+                autoplay={{
+                  delay: 5000, // Set delay in milliseconds (5 seconds)
+                  disableOnInteraction: false, // Continue autoplay even after user interactions
+                }}
+              >
+                <SwiperSlide>
+                  <div className="eventology-column">
+                    <Link href="#" className="card ">
+                      <div className="eventology-image">
+                        <picture>
+                          <Image
+                            src="/images/home/eventology.jpg"
+                            className="card-img"
+                            height={365}
+                            width={365}
+                            alt="Eventology"
+                          />
+                        </picture>
+                      </div>
+                      <div className="card-img-overlay">
+                        <h3 className="card-title">
+                          A useful guide to create effective name badges
+                        </h3>
+                        <p className="card-text">
+                          <small>
+                            <picture>
+                              <Image
+                                src="/images/home/eventology-arrow.svg"
+                                className="img-fluid"
+                                height={15}
+                                width={21}
+                                alt="button"
+                              />
+                            </picture>
+                          </small>
+                        </p>
+                      </div>
+                    </Link>
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className="eventology-column">
+                    <Link href="#" className="card ">
+                      <div className="eventology-image">
+                        <picture>
+                          <Image
+                            src="/images/home/eventology.jpg"
+                            className="card-img"
+                            height={365}
+                            width={365}
+                            alt="Eventology"
+                          />
+                        </picture>
+                      </div>
+                      <div className="card-img-overlay">
+                        <h3 className="card-title">
+                          A useful guide to create effective name badges
+                        </h3>
+                        <p className="card-text">
+                          <small>
+                            <picture>
+                              <Image
+                                src="/images/home/eventology-arrow.svg"
+                                className="img-fluid"
+                                height={15}
+                                width={21}
+                                alt="button"
+                              />
+                            </picture>
+                          </small>
+                        </p>
+                      </div>
+                    </Link>
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className="eventology-column">
+                    <Link href="#" className="card ">
+                      <div className="eventology-image">
+                        <picture>
+                          <Image
+                            src="/images/home/eventology.jpg"
+                            className="card-img"
+                            height={365}
+                            width={365}
+                            alt="Eventology"
+                          />
+                        </picture>
+                      </div>
+                      <div className="card-img-overlay">
+                        <h3 className="card-title">
+                          A useful guide to create effective name badges
+                        </h3>
+                        <p className="card-text">
+                          <small>
+                            <picture>
+                              <Image
+                                src="/images/home/eventology-arrow.svg"
+                                className="img-fluid"
+                                height={15}
+                                width={21}
+                                alt="button"
+                              />
+                            </picture>
+                          </small>
+                        </p>
+                      </div>
+                    </Link>
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className="eventology-column">
+                    <Link href="#" className="card ">
+                      <div className="eventology-image">
+                        <picture>
+                          <Image
+                            src="/images/home/eventology.jpg"
+                            className="card-img"
+                            height={365}
+                            width={365}
+                            alt="Eventology"
+                          />
+                        </picture>
+                      </div>
+                      <div className="card-img-overlay">
+                        <h3 className="card-title">
+                          A useful guide to create effective name badges
+                        </h3>
+                        <p className="card-text">
+                          <small>
+                            <picture>
+                              <Image
+                                src="/images/home/eventology-arrow.svg"
+                                className="img-fluid"
+                                height={15}
+                                width={21}
+                                alt="button"
+                              />
+                            </picture>
+                          </small>
+                        </p>
+                      </div>
+                    </Link>
+                  </div>
+                </SwiperSlide>
+              </Swiper>
             </div>
           </div>
           <div className="col-12 text-center py-5">

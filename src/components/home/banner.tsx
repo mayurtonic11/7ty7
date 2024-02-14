@@ -1,10 +1,12 @@
+"use client";
 import Image from "next/image";
+import { Swiper, SwiperSlide } from "swiper/react";
 const Banner = () => {
   return (
     <div>
       <section id="home-banner">
-        <div className="container">
-          <div className="row g-md-0">
+        <div className="container h-100">
+          <div className="row g-md-0 h-100">
             <div className="col-md-5">
               <div className="circle-fill-icon banner-icon-object-one"></div>
               <div className="banner-content">
@@ -33,16 +35,53 @@ const Banner = () => {
                       />
                     </picture>
                   </div>
-                  <div className="banner-image-one-dimension zoom-hover">
-                    <picture>
-                      <Image
-                        src="/images/home/banner-image-one.jpg"
-                        fill
-                        alt="Banner"
-                      />
-                    </picture>
-                    <div className="circle-icon banner-icon-object-four"></div>
-                  </div>
+                  <Swiper
+                    draggable={true}
+                    allowTouchMove={true}
+                    direction="vertical"
+                    autoHeight={true}
+                    className="home-banner-one-slider"
+                    breakpoints={{
+                      0: {
+                        slidesPerView: 1,
+                      },
+                      600: {
+                        slidesPerView: 1,
+                      },
+                      1000: {
+                        slidesPerView: 1,
+                      },
+                    }}
+                    autoplay={{
+                      delay: 3000, // Set delay in milliseconds (5 seconds)
+                      disableOnInteraction: true, // Continue autoplay even after user interactions
+                    }}
+                  >
+                    <SwiperSlide>
+                      <div className="banner-image-one-dimension zoom-hover">
+                        <picture>
+                          <Image
+                            src="/images/home/banner-image-one.jpg"
+                            fill
+                            alt="Banner"
+                          />
+                        </picture>
+                        <div className="circle-icon banner-icon-object-four"></div>
+                      </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                      <div className="banner-image-one-dimension zoom-hover">
+                        <picture>
+                          <Image
+                            src="/images/home/banner-image-two.jpg"
+                            fill
+                            alt="Banner"
+                          />
+                        </picture>
+                        <div className="circle-icon banner-icon-object-four"></div>
+                      </div>
+                    </SwiperSlide>
+                  </Swiper>
                   <div className="banner-object-two">
                     <picture>
                       <Image
@@ -66,15 +105,53 @@ const Banner = () => {
                       />
                     </picture>
                   </div>
-                  <div className="banner-image-two-dimension zoom-hover">
-                    <picture>
-                      <Image
-                        src="/images/home/banner-image-two.jpg"
-                        fill
-                        alt="Banner"
-                      />
-                    </picture>
-                  </div>
+                  <Swiper
+                    draggable={true}
+                    allowTouchMove={true}
+                    direction="vertical"
+                    autoHeight={true}
+                    className="home-banner-two-slider"
+                    breakpoints={{
+                      0: {
+                        slidesPerView: 1,
+                      },
+                      600: {
+                        slidesPerView: 1,
+                      },
+                      1000: {
+                        slidesPerView: 1,
+                      },
+                    }}
+                    autoplay={{
+                      delay: 3000, // Set delay in milliseconds (5 seconds)
+                      disableOnInteraction: true, // Continue autoplay even after user interactions
+                    }}
+                  >
+                    <SwiperSlide>
+                      {" "}
+                      <div className="banner-image-two-dimension zoom-hover">
+                        <picture>
+                          <Image
+                            src="/images/home/banner-image-two.jpg"
+                            fill
+                            alt="Banner"
+                          />
+                        </picture>
+                      </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                      {" "}
+                      <div className="banner-image-two-dimension zoom-hover">
+                        <picture>
+                          <Image
+                            src="/images/home/banner-image-one.jpg"
+                            fill
+                            alt="Banner"
+                          />
+                        </picture>
+                      </div>
+                    </SwiperSlide>
+                  </Swiper>
                 </div>
               </div>
             </div>

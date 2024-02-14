@@ -1,6 +1,5 @@
-import Image from "next/image";
 import Banner from "@/components/home/banner";
-import OurStory from "@/components/home/ourstory";
+import OurStory from "@/components/home/ourstory/ourstorypage";
 import OurWord from "@/components/home/ourword";
 import Expertise from "@/components/home/expertise";
 import Star from "@/components/home/star";
