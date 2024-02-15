@@ -1,5 +1,16 @@
+"use client";
+import React, { useEffect, useState } from "react";
 import Image from "next/image";
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+import "swiper/css/effect-fade";
+import { Autoplay, Pagination, Navigation } from "swiper/modules";
 const CareerContent = () => {
+  const [swiperRef, setSwiperRef] = useState(null);
   return (
     <>
       <section id="career-content" className="section-spacing">
@@ -80,6 +91,83 @@ const CareerContent = () => {
                   </picture>
                 </div>
               </div>
+            </div>
+            <div className="col-12 d-block d-lg-none career-mobile-slider">
+              <Swiper
+                spaceBetween={20}
+                navigation={true}
+                modules={[Pagination, Navigation]}
+                loop={false} // Disable looping
+                className="momentmagic-slider"
+                pagination={{ clickable: true }}
+                breakpoints={{
+                  0: {
+                    slidesPerView: 1,
+                  },
+                  600: {
+                    slidesPerView: 1,
+                  },
+                  767: {
+                    slidesPerView: 1,
+                  },
+                  1000: {
+                    slidesPerView: 1,
+                  },
+                }}
+                autoplay={{
+                  delay: 5000, // Set delay in milliseconds (5 seconds)
+                  disableOnInteraction: false, // Continue autoplay even after user interactions
+                }}
+              >
+                <SwiperSlide>
+                  <div className="career-image-two zoom-hover">
+                    <picture>
+                      <Image
+                        src="/images/career/career-two.jpg"
+                        className="img-fluid"
+                        fill
+                        alt="Career"
+                      />
+                    </picture>
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className="career-image-three zoom-hover">
+                    <picture>
+                      <Image
+                        src="/images/career/career-three.jpg"
+                        className="img-fluid"
+                        fill
+                        alt="Career"
+                      />
+                    </picture>
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className="career-image-four zoom-hover">
+                    <picture>
+                      <Image
+                        src="/images/career/career-four.jpg"
+                        className="img-fluid"
+                        fill
+                        alt="Career"
+                      />
+                    </picture>
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className="career-image-five zoom-hover">
+                    <picture>
+                      <Image
+                        src="/images/career/career-five.jpg"
+                        className="img-fluid"
+                        fill
+                        alt="Career"
+                      />
+                    </picture>
+                  </div>
+                </SwiperSlide>
+              </Swiper>
             </div>
           </div>
         </div>

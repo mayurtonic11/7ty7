@@ -280,6 +280,26 @@
   .modal-content {
     max-width: 90%;
   }
+  .career-image-one picture,
+  .career-image-two picture,
+  .career-image-three picture,
+  .career-image-four picture,
+  .career-image-five picture {
+    width: 400px !important;
+    height: 400px !important;
+  }
+  .career-image-one,
+  .career-image-two,
+  .career-image-three,
+  .career-image-four,
+  .career-image-five {
+    position: unset !important;
+    margin-top: unset !important;
+    padding-top: 2rem;
+  }
+  #career-content{
+    padding-bottom: 1rem !important;
+  }
 }
 @media (min-width: 2560px) {
   #career-content .container {
