@@ -74,15 +74,15 @@
 .meet-squad-slider .card h5 {
   font-weight: 600;
 }
-.meet-squad-slider ,
+.meet-squad-slider,
 .momentmagic-slider {
   padding: 0 1rem 4rem;
 }
-.meet-squad-slider .swiper-button-prev ,
+.meet-squad-slider .swiper-button-prev,
 .momentmagic-slider .swiper-button-prev {
   left: -2px;
 }
-.meet-squad-slider .swiper-button-next ,
+.meet-squad-slider .swiper-button-next,
 .momentmagic-slider .swiper-button-next {
   right: 1px;
 }
@@ -90,41 +90,41 @@
 .momentmagic-slider .swiper-pagination {
   bottom: 20px !important;
 }
-.fancybox__container{
-  z-index: 9999999999999999999999!important;
+.fancybox__container {
+  z-index: 9999999999999999999999 !important;
 }
 #momentmagic-squad .card {
-    border: 0;
-    background-color: unset;
-    position: relative;
+  border: 0;
+  background-color: unset;
+  position: relative;
 }
 #momentmagic-squad .card-body {
-    background: var(--theme-color);
-    display: flex;
-    justify-content: space-between;
-    padding-inline: 2rem;
-    padding-bottom: 0;
-    margin-top: -12%;
+  background: var(--theme-color);
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 2rem;
+  padding-bottom: 0;
+  margin-top: -12%;
 }
 #momentmagic-squad .card-body h5 {
-    color: var(--white-color);
-    margin-bottom: 0;
+  color: var(--white-color);
+  margin-bottom: 0;
 }
 #momentmagic-squad h2 {
-    margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
-#momentmagic-squad  .card-image-btn {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+#momentmagic-squad .card-image-btn {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-#momentmagic-squad .card-photo img{
+#momentmagic-squad .card-photo img {
   width: 100%;
 }
 #home-adventure {
@@ -153,7 +153,7 @@
 }
 .adventure-slider .card h5 {
   font-weight: 600;
-  font:700 24.7px/30.34px Figtree, sans-serif;
+  font: 700 24.7px/30.34px Figtree, sans-serif;
   margin-bottom: 1rem;
 }
 .adventure-slider .card:hover {
@@ -270,12 +270,15 @@
   padding: 2rem;
 }
 .career-popup .modal-content {
-    text-align: center;
-    padding: 3rem;
+  text-align: center;
+  padding: 3rem;
 }
 @media (max-width: 999px) {
   .contactus-form {
     padding: 1rem;
+  }
+  .modal-content {
+    max-width: 100%;
   }
 }
 @media (min-width: 2560px) {
@@ -307,7 +310,7 @@
   .inner-section {
     padding: 2rem 0 0;
   }
-   .ourword-slider .card {
+  .ourword-slider .card {
     padding: 1rem;
   }
 }
