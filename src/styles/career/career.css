@@ -1,0 +1,313 @@
+#career-content h2 {
+  font: 700 45.05px/50px Figtree, sans-serif !important;
+}
+.career-image-one picture {
+  width: 660px;
+  height: 490px;
+  position: relative;
+}
+.career-image-two picture {
+  width: 312px;
+  height: 469px;
+  position: relative;
+}
+.career-image-three picture {
+  width: 312px;
+  height: 363px;
+  position: relative;
+}
+.career-image-four picture {
+  width: 330px;
+  height: 469px;
+  position: relative;
+}
+.career-image-five picture {
+  width: 330px;
+  height: 409px;
+  position: relative;
+}
+.career-image-four {
+  position: absolute;
+  right: 0%;
+}
+.career-image-five {
+  position: absolute;
+  right: 0%;
+  bottom: -50px;
+}
+.career-image-one picture img,
+.career-image-four picture img {
+  object-fit: cover;
+}
+#career-content {
+  position: relative;
+  padding-bottom: 5rem;
+}
+.career-heading h2 {
+  margin-bottom: 2rem;
+}
+.career-heading {
+  max-width: 95%;
+}
+.career-image-one {
+  position: absolute;
+  left: 0;
+  top: 45%;
+}
+.career-image-two {
+  margin-top: -30%;
+  margin-bottom: 1.5rem;
+}
+.meet-squad-slider .card-photo {
+  margin: auto;
+}
+.meet-squad-slider .card {
+  padding: 2rem 0 0;
+  text-align: center;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  cursor: pointer;
+}
+.meet-squad-slider .card h5 {
+  font-weight: 600;
+}
+.meet-squad-slider ,
+.momentmagic-slider {
+  padding: 0 1rem 4rem;
+}
+.meet-squad-slider .swiper-button-prev ,
+.momentmagic-slider .swiper-button-prev {
+  left: -2px;
+}
+.meet-squad-slider .swiper-button-next ,
+.momentmagic-slider .swiper-button-next {
+  right: 1px;
+}
+.meet-squad-slider .swiper-pagination,
+.momentmagic-slider .swiper-pagination {
+  bottom: 20px !important;
+}
+.fancybox__container{
+  z-index: 9999999999999999999999!important;
+}
+#momentmagic-squad .card {
+    border: 0;
+    background-color: unset;
+    position: relative;
+}
+#momentmagic-squad .card-body {
+    background: var(--theme-color);
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 2rem;
+    padding-bottom: 0;
+    margin-top: -12%;
+}
+#momentmagic-squad .card-body h5 {
+    color: var(--white-color);
+    margin-bottom: 0;
+}
+#momentmagic-squad h2 {
+    margin-bottom: 2rem;
+}
+#momentmagic-squad  .card-image-btn {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#momentmagic-squad .card-photo img{
+  width: 100%;
+}
+#home-adventure {
+  position: relative;
+}
+#home-adventure h2 {
+  text-align: center;
+  padding: 2rem;
+}
+.adventure-slider {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 5%;
+  padding-inline: 1rem;
+  padding-bottom: 5rem;
+}
+.adventure-slider .card {
+  background-color: var(--white-color);
+  border-radius: 0;
+  padding: 2rem;
+  webkit-transition: 0.3s ease-in-out !important;
+  -o-transition: 0.3s ease-in-out !important;
+  transition: 0.3s ease-in-out !important;
+  height: 100%;
+  cursor: pointer;
+}
+.adventure-slider .card h5 {
+  font-weight: 600;
+  font:700 24.7px/30.34px Figtree, sans-serif;
+  margin-bottom: 1rem;
+}
+.adventure-slider .card:hover {
+  -webkit-box-shadow: -1px 10px 13px 3px rgba(0, 0, 0, 0.49);
+  box-shadow: -1px 10px 13px 3px rgba(0, 0, 0, 0.49);
+  border: 1px solid var(--theme-color);
+}
+.adventure-slider .card .card-btn {
+  display: block;
+  padding: 3rem 0 0;
+  color: var(--theme-color) !important;
+  font-weight: 600;
+  font-style: italic;
+  text-decoration: underline !important;
+}
+.adventure-slider .card p {
+  margin-bottom: 0;
+  color: var(--black-color);
+  font-weight: 500;
+}
+.adventure-slider .swiper-button-prev {
+  left: 0%;
+  top: 40%;
+}
+.adventure-slider .swiper-button-next {
+  right: 0%;
+  top: 40%;
+}
+#contact-us {
+  position: relative;
+}
+.contactus-content {
+  padding-bottom: 3rem;
+}
+.contactus-form {
+  padding: 1rem 1rem 0;
+}
+.contactus-form label {
+  display: block;
+}
+.contactus-form .form-group {
+  padding-bottom: 1rem;
+}
+.contactus-form .form-control,
+.contactus-form .form-select {
+  border: 0;
+  border-bottom: 1px solid var(--theme-color);
+  border-radius: 0;
+  padding-inline-start: 0;
+}
+.contactus-form .form-control:focus,
+.contactus-form .form-select:focus {
+  outline: 0;
+  box-shadow: unset;
+}
+.contactus-form .form-label span {
+  color: #ff0000;
+  padding-inline-start: 0.2rem;
+  font-weight: 700 !important;
+}
+.contactus-form .form-group .error {
+  color: #ff0000;
+}
+.contactus-form .main-btn {
+  margin: 1rem 0;
+}
+.spinner {
+  border: 6px solid #f3f3f3;
+  border-top: 6px solid #3498db;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  animation: spin 1s linear infinite;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999999999;
+}
+.modal-content {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  background-color: var(--white-color);
+  max-width: 50%;
+  margin: auto;
+  padding: 1rem;
+  text-align: left;
+}
+.close-btn {
+  position: absolute;
+  top: 0px;
+  right: 15px;
+  font-size: 40px;
+  cursor: pointer;
+  color: var(--theme-color);
+}
+.modal-content h2 {
+  font-weight: 700 !important;
+  font: 700 45.05px/50px Figtree, sans-serif !important;
+  padding: 2rem;
+}
+.career-popup .modal-content {
+    text-align: center;
+    padding: 3rem;
+}
+@media (max-width: 999px) {
+  .contactus-form {
+    padding: 1rem;
+  }
+}
+@media (min-width: 2560px) {
+  #career-content .container {
+    position: relative;
+  }
+}
+@media (max-width: 1248.5px) {
+  .career-image-one picture {
+    width: 600px;
+  }
+  .career-image-four picture,
+  .career-image-five picture {
+    width: 280px;
+  }
+}
+@media (max-width: 1199.5px) {
+  .career-image-one picture {
+    width: 460px;
+  }
+  .career-image-two picture,
+  .career-image-three picture,
+  .career-image-four picture,
+  .career-image-five picture {
+    width: 230px;
+  }
+}
+@media (max-width: 999px) {
+  .inner-section {
+    padding: 2rem 0 0;
+  }
+   .ourword-slider .card {
+    padding: 1rem;
+  }
+}
